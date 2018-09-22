@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular6-project';
+  dataSource = {
+    data: [{value: 8}, {value: 9}, {value: 7}]
+  }
 }
